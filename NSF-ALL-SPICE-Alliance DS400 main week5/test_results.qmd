@@ -115,3 +115,5 @@ embed_url("https://www.youtube.com/watch?v=R13BD8qKeTg")
 $$
 P(\text{have disease} \mid \text{positive second test}) = \frac{P(\text{have disease after first positive}) \cdot P(\text{positive second test} \mid \text{have disease})}{P(\text{positive second test})}
 $$
+
+##If you test positive again, the prior probability in Bayes' Theorem needs to be updated to reflect the first positive test result. This new prior increases the likelihood of having the disease after the second positive test. As a result, the probability of actually having the disease will be higher with two positive tests compared to just one.
